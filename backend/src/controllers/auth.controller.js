@@ -107,7 +107,7 @@ const getMe = async(req,res)=>{
       });
     }
 
-    return resstatus(200).json({
+    return res.status(200).json({
       success:true,
       data:{
         user,
